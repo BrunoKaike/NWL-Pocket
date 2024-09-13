@@ -47,4 +47,7 @@ In Orbit é um projeto que gerencia metas pessoais e apresenta um overview do av
 ## Passos para utilizar
 1. Rode `npm i` para instalar as dependências;
 2. Rode `docker compose up -d` para iniciar o container do banco de dados postgres;
-3. Rode `npm run dev` para iniciar a aplicação;
+3. Semeie as tasks no banco de dados rodando `npm seed` dentro da pasta `server`
+4. Inicie o servidor do backend em um terminal, rodando o comando `npm run dev` dentro da pasta `server`
+5. Inicie o servidor da web em outro terminal, rodando `npm run dev` dentro da pasta `web`
+6. Para utilizar o aplicativo web, basta abrir [http://localhost:5173](http://localhost:5173) em algum browser
